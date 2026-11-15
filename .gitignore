@@ -1,0 +1,19 @@
+# Ambiente e segredos
+.env
+venv/
+.venv/
+
+# Banco de dados e logs gerados em execução
+instance/
+logs/
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
